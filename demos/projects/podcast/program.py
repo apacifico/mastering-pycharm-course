@@ -3,6 +3,10 @@ import random
 
 
 def main():
+    """
+    A short comment to test commit feature with github
+    :return:
+    """
     show_header()
 
     service.download_info()
