@@ -15,12 +15,19 @@ def main():
 
 
 def show_header():
+    """
+
+    :return:
+    """
     print("Welcome to the talk python info downloader.")
     print()
 
 
 def display_results():
-
+    """
+    A new comment for tests with github integration
+    :return:
+    """
     start = random.randint(90, 110)
     end = random.randint(130, service.get_latest_show_id()+1)
 
